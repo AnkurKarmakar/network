@@ -1,0 +1,68 @@
+Questions for Network Lab
+
+
+Assignment 1
+
+1. what are the use of getAllByName(), isLoopbackAddress().
+2. Explain the heirarchy of InetAddress Class.
+3. 127.0.0.1-- Explain the significance of this IP address.
+
+Assignment 2
+
+1. What is process to process delivery.
+2. What are the port numbers of DNS,HTTP,FTP,TCP,UDP.
+3. What are the use of getLocalPort(),isConnected() of Socket class.
+
+Assignment 3
+
+1. What is the use of ping command.
+2. Write a function to ping a external server if filter is applied to your local network.
+
+Assignment 4
+
+1.Which transport layer protocols are used for real time multimedia, file transfer, DNS and email--explain.
+2.compare connection oriented and connection less communication.
+
+Assignment 5
+
+1. what are the predefined fucntions needed to implement UDP server and client in C.
+2. How to implement broadcast socket in java.
+
+Assignment 6
+1. How to implement  TCP server client in java.
+2.explain the use of  setSoTimeout(), getSoTimeout() in java.
+3. Specify the hierarchy of ServerSocket class.
+
+Assignment 7
+1. what is concurrent server. How to implement concurrent TCP, UDPserver using C.
+2. public ServerSocket (int port) throws IOException - what happens if a port number of 0 is used? In such a case, which method can be used to obtain the actual port number in use?
+3.ServerSocket (int port, int backlog) - what does backlog specify in such a declaration of ServerSocket?
+
+Assignment 8
+
+1.Explain the use of parity check for error detection.
+2.If d is the hamming distance for a given code, how many errors can by detected and corrected by this code?
+3.Consider the following data
+
+10011001	11100010	100100	10000100
+	
+
+What will be the transmitted data if two-dimensional parity check is used?
+
+Assignment 9
+
+1.In stop and wait ARQ protocol, if the packet size is 1KB, propagation time is 15ms and the channel capacity is 10^9 bits/second, find the transmission time and channel utilisation.
+2.What do you mean by “window-size”? What is the window size in stop and wait ARQ? How many unique sequence numbers does Stop-and-Wait need? How many bits are needed to represent Stop-and- Wait’s unique sequence numbers? Explain.
+3.What is piggybacking?
+
+Assignment 10
+1.Using public key cryptography, X adds a digital signature \sigma to message M, encrypts , and sends it to Y, where it is decrypted. What will be sequence of keys used(public or private key of X and Y) for the encryption and decryption operations- explain.
+2. what is NAT-explain.
+
+
+
+
+
+
+
+
